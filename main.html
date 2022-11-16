@@ -17,33 +17,34 @@
 		<label for="email">Email:</label>
 		<input type="email" name="myEmail" id="email" required>
         <br><br>
-		
-		<label for="male">Gender:</label>
-		
-		Male<input type="radio" name="gender" id="male" required>
-		Female<input type="radio" name="gender" id="female" required>
+
+		<!-- <label for="male">Gender:</label> -->
+		<label for="gender">Male</label>
+		<input type="radio" name="gender" value="male" id="male" required>
+		<label for="female">Female</label>
+		<input type="radio" name="gender" value="female" id="female" required>
 		<br><br>
 
-		<label for="laptop">Laptop Brands* Apple</label>
+		<label for="laptop">Laptop Brands</label>
 		<!-- <option>select</option -->
-			<select  id="laptop" required>
-			<option required>Apple</option>
-			<option required>Asus</option>
-			<option required>Hp</option>
+			<select  id="laptop">
+			<option value="Apple">Apple</option>
+			<option value="Asus">Asus</option>
+			<option value="Hp">Hp</option>
 		</select>
 	
 		<br><br>
 		<label for="age">Age:</label>
-		<input type="age" id="age" required>
+		<input type="text" id="age" required>
 
 		<br><br>
 
 		<label for="dob">D.O.B</label>
-		<input type="date"  id="dob" required> 
+		<input type="text" id="dob" required> 
 	    <br><br>
 
 		<label for="password">Password:</label>
-		<input type="password" id="password" required>
+		<input type="text" id="password" required>
 	
         <br><br>
 		
@@ -51,7 +52,7 @@
 		<input type="url" name="myportfolio" id="portfolio " required>
 		<br><br>
 
-		<label for="submit"></label>
+		
 		<button type="submit" id="submit">Submit</button>
 		
 	
